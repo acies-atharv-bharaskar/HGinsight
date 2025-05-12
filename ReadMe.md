@@ -1,6 +1,6 @@
 # S3 to PostgreSQL Pipeline
 
-A modular data pipeline for importing Parquet files from AWS S3 to PostgreSQL with text embeddings and full-text search capabilities.
+A data pipeline for importing Parquet files from AWS S3 to PostgreSQL with text embeddings and full-text search capabilities.
 
 ## Features
 
@@ -21,18 +21,12 @@ A modular data pipeline for importing Parquet files from AWS S3 to PostgreSQL wi
 
 ## Installation
 
-### Using pip
-
-```bash
-pip install s3-postgres-pipeline
-```
-
 ### From Source
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/s3-postgres-pipeline.git
-cd s3-postgres-pipeline
+git clone https://github.com/acies-atharv-bharaskar/HGinsight.git
+cd HGinsight
 
 # Install the package
 pip install -e .
