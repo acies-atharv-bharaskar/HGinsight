@@ -4,8 +4,8 @@ services:
   pipeline:
     image: s3-postgres-pipeline
     environment:
-      - AWS_ACCESS_KEY_ID=AKIA3NA7AS43P3PZM2I2
-      - AWS_SECRET_ACCESS_KEY=LcMZFd/zBm8jUwvbDRj/HYb26OZK2JvuiljBwYfe
+      - AWS_ACCESS_KEY_ID=add_your_access_key
+      - AWS_SECRET_ACCESS_KEY=add_your_secret key
       - AWS_REGION=eu-north-1
     volumes:
       - ./config:/app/config
